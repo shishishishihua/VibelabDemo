@@ -39,7 +39,7 @@ dependencies {
     // 保持单一 AndroidX UI 入口依赖，避免与额外直连的 core / 本地二进制依赖形成重复类冲突。
     implementation 'androidx.appcompat:appcompat:1.7.1'
     implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.22')
-    ittestImplementation 'junit:junit:4.13.2'
+    testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 }
