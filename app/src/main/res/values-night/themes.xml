@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VibeLabAndroidSample" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/vibelab_blue</item>
+        <item name="colorPrimaryDark">@color/vibelab_blue_dark</item>
+        <item name="colorAccent">@color/vibelab_accent</item>
+        <item name="android:statusBarColor">@color/vibelab_blue_dark</item>
+        <item name="android:windowBackground">@color/page_background</item>
+    </style>
+</resources>

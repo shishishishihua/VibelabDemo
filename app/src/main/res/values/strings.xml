@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VibeLab Sample</string>
+    <string name="home_title">VibeLab 提交前自检</string>
+    <string name="home_subtitle">一个按文档约束整理的最小原生 Android 示例应用。</string>
+    <string name="status_default">当前状态：待确认</string>
+    <string name="status_ready">已确认约束</string>
+    <string name="status_pending">待确认</string>
+    <string name="status_format">当前状态：%1$s</string>
+    <string name="ack_count_default">你还没有点击确认。</string>
+    <string name="ack_count_format">已确认 %1$d 次</string>
+    <string name="action_acknowledge">我已阅读约束</string>
+    <string name="common_constraints_title">通用提交约束</string>
+    <string name="common_constraints_content">• 提交 GitHub 仓库地址与完整 commit id\n• 一个仓库只放一个应用\n• 保留完整 Gradle 工程结构与 gradle/ 目录\n• 只保留一个 Application module\n• release 构建产出唯一 APK\n• 不提交 local.properties、签名信息或敏感密钥</string>
+    <string name="android_constraints_title">Android 工程约束</string>
+    <string name="android_constraints_content">• Gradle Wrapper：8.13\n• AGP：8.13.x\n• compileSdk / targetSdk：35 或 36\n• minSdk：35\n• JDK：17\n• 依赖只能来自公开 Maven 仓库</string>
+    <string name="footer_note">这个示例故意保持为单 Activity、单 Module，方便你直接继续扩展成自己的业务 Demo。</string>
+</resources>
